@@ -11,7 +11,20 @@ namespace AccountStatusWeb
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+           /* dbRtMailNetEntities db = new dbRtMailNetEntities();
+
+            var reportes = db.Re
+
+            /*
+            foreach (pReport_Get_Result rep in reportes)
+            {
+                DropDownList1.Items.Add(rep.idReport + " " + rep.name + " " + rep.path);
+            }*/
+
+           /* GridReports.DataSource = reportes;
+            GridReports.DataBind();*/
+
 
         }
-    }
+    } 
 }

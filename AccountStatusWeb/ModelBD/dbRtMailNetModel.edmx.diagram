@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="fd6c633d0eab4f08959ce64f37b1e0fd" Name="Diagram1" ZoomLevel="71">
+        <EntityTypeShape EntityType="dbRtMailNetModel.sysdiagrams" Width="1.5" PointX="7.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbRtMailNetModel.tAttachment" Width="1.5" PointX="0.75" PointY="3.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbRtMailNetModel.tBill" Width="1.5" PointX="7.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbRtMailNetModel.tClient" Width="1.5" PointX="2.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbRtMailNetModel.tClientUSA" Width="1.5" PointX="4.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbRtMailNetModel.tCountry" Width="1.5" PointX="0.75" PointY="7.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbRtMailNetModel.tEmailAccount" Width="1.5" PointX="0.75" PointY="11.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbRtMailNetModel.tImageConfig" Width="1.5" PointX="0.75" PointY="14.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbRtMailNetModel.tLogConfig" Width="1.5" PointX="0.75" PointY="19" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbRtMailNetModel.tProcedureLoadData" Width="1.5" PointX="0.75" PointY="22.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbRtMailNetModel.tReport" Width="1.5" PointX="3" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbRtMailNetModel.tReportMessage" Width="1.5" PointX="5.25" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbRtMailNetModel.tReportParameter" Width="1.5" PointX="5.25" PointY="4.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbRtMailNetModel.tReportServerConfig" Width="1.5" PointX="0.75" PointY="26.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbRtMailNetModel.tSignature" Width="1.5" PointX="0.75" PointY="30" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbRtMailNetModel.tSmtp" Width="1.5" PointX="0.75" PointY="33.5" IsExpanded="true" />
+        <AssociationConnector Association="dbRtMailNetModel.FK_tReport_tAttachment" ManuallyRouted="false" />
+        <AssociationConnector Association="dbRtMailNetModel.FK_tReport_tCountry" ManuallyRouted="false" />
+        <AssociationConnector Association="dbRtMailNetModel.FK_tReport_tEmailAccount" ManuallyRouted="false" />
+        <AssociationConnector Association="dbRtMailNetModel.FK_tReport_tImageConfig" ManuallyRouted="false" />
+        <AssociationConnector Association="dbRtMailNetModel.FK_tReport_tLogConfig" ManuallyRouted="false" />
+        <AssociationConnector Association="dbRtMailNetModel.FK_tReport_tProcedureLoadData" ManuallyRouted="false" />
+        <AssociationConnector Association="dbRtMailNetModel.FK_tReport_tReportServerConfig" ManuallyRouted="false" />
+        <AssociationConnector Association="dbRtMailNetModel.FK_tReport_tSignature" ManuallyRouted="false" />
+        <AssociationConnector Association="dbRtMailNetModel.FK_tReport_tSmtp" ManuallyRouted="false" />
+        <AssociationConnector Association="dbRtMailNetModel.FK_tReportMessage_tReport" ManuallyRouted="false" />
+        <AssociationConnector Association="dbRtMailNetModel.FK_tReportParameter_tReport" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
